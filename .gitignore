@@ -4,9 +4,7 @@ env/
 myenv/
 *.env
 __pycache__/
-data/raw/
-data/processed/
-data/outputs/
+
 .idea/
 .vscode/
 *.pyc

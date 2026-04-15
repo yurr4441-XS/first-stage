@@ -1,0 +1,10 @@
+﻿metric,value
+raw_total,56
+after_prescription,38
+after_chief_history,37
+label_coarse_notna,29
+after_input_len,37
+final_total,29
+label_脑系病,16
+label_外表类,7
+label_痹证类,6

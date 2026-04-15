@@ -67,8 +67,7 @@ for i, cls in enumerate(le.classes_):
 cv = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
 
 # ========== 6. 最终主模型：LinearSVC ==========
-# 注意：
-# 这里我先沿用你当前表现更好的 char 方案
+#沿用当前表现更好的 char 方案
 svm_pipeline = Pipeline([
     ("tfidf", TfidfVectorizer(analyzer="char", ngram_range=(1, 2), min_df=1)),
     ("clf", LinearSVC(class_weight="balanced", random_state=42, C=2))
